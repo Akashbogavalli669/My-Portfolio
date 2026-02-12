@@ -692,18 +692,13 @@
                 </div>
             </div>
 
-            <form class="contact-form" action="https://formspree.io/f/mzdadnjv" method="POST">
-                <div class="input-group">
-                    <input type="text" name="name" placeholder="Your Name" class="input-field" required>
-                </div>
-                <div class="input-group">
-                    <input type="email" name="email" placeholder="Your Email" class="input-field" required>
-                </div>
-                <div class="input-group">
-                    <textarea name="message" placeholder="Your Message..." class="input-field" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
+            <form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="f270f1b3-a1b0-4923-8bc4-c4923134afd0">
+  <input type="text" name="name" required>
+  <input type="email" name="email" required>
+  <textarea name="message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
         </div>
     </section>
 
@@ -804,6 +799,7 @@
     </script>
 </body>
 </html>
+
 
 
 
